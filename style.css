@@ -20,7 +20,7 @@ a{color:var(--link);text-underline-offset:.18em}
 .skip{position:absolute;left:-999rem}
 .skip:focus{left:1rem;top:1rem;z-index:50;background:var(--bg);padding:.5rem .8rem}
 .wrap{max-width:64rem;margin:0 auto;padding:0 1.5rem}
-p,li,dd{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+p,li,dd{text-align:justify;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:7 3 4}
 p{margin:0 0 1rem}
 ul,ol{margin:0 0 1rem;padding-left:1.3rem}
 li{margin:0 0 .5rem}
