@@ -122,6 +122,9 @@ footer a{color:#ffffff}
   .intro{grid-template-columns:1fr;gap:1.8rem}
   .chem{max-width:19rem;margin:0 auto}
   .lines,.flow,.links{grid-template-columns:1fr}
+  .flow li{display:grid;grid-template-columns:2rem 1fr;column-gap:.9rem;align-items:start}
+  .flow li::before{grid-row:1 / span 2;margin-bottom:0}
+  .flow b,.flow span{grid-column:2}
   .basis,.line{padding:1.2rem 1.15rem}
   table{min-width:40rem}
   .path{grid-template-columns:5.6rem 1fr;padding:1.2rem 1.15rem}
