@@ -31,7 +31,7 @@ a:hover{color:var(--scott)}
 .role{font:600 1.02rem/1.45 var(--sans);margin:0}
 .affil{font:400 .98rem/1.5 var(--sans);color:var(--muted);margin:.2rem 0 0}
 .lead{font-size:1.22rem;line-height:1.55;margin:1.5rem 0 0;max-width:38rem}
-.portrait{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4px;display:block}
+.portrait{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:4px;display:block}
 .profiles{list-style:none;display:flex;flex-wrap:wrap;gap:.45rem 1.4rem;padding:0;margin:1.6rem 0 0;font:600 .95rem/1.4 var(--sans)}
 .profiles li{margin:0}
 .trace{display:block;width:100%;height:3.2rem;color:var(--scott);margin:.4rem 0 0}
@@ -108,6 +108,9 @@ footer p{margin:0 0 .3rem}
   .toc{top:0;z-index:5;background:var(--paper);margin:0 -1.5rem 1.8rem;padding:0 1.5rem;border-bottom:1px solid var(--rule)}
   .toc ul{display:flex;gap:1.3rem;overflow-x:auto;border-left:0;white-space:nowrap}
   .toc a{padding:.8rem 0;border-left:0;margin:0}
+  .toc ul{scrollbar-width:none}
+  .toc ul::-webkit-scrollbar{display:none}
+  table{min-width:38rem}
   .flow{grid-template-columns:1fr;gap:1.5rem}
   .flow li{padding-right:0}
   .plots{max-width:16rem}
